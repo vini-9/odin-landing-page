@@ -175,3 +175,10 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+/* Footer style */
+.footer {
+  padding: 30px;
+  color:#f9faf8;
+  text-align: center;
+}
