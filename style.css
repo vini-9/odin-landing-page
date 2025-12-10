@@ -13,22 +13,12 @@ body {
   background-color: #1f2937;
 }
 
-.hero-text {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: 900;
-}
-
-.hero-text p {
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
+/* Header style */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 150px;
+  padding: 20px 60px;
 }
 
 .logo {
@@ -48,15 +38,54 @@ body {
   cursor: pointer;
 }
 
+/* Hero text style */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 12px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 .btn {
   background-color: #3882f6;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 24px;
+  font-weight: 900;
+  font-size: 16px;
 }
+
+/* Info style */
 
 .info h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
 }
+
+
+/* Quote style */
 
 .quote {
   background-color: #e5e7eb;
