@@ -24,13 +24,28 @@ body {
   color: #e5e7eb;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
+.menu ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
 .menu ul li {
-  color: #f9faf8;
+  color: #e5e7eb;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .btn {
